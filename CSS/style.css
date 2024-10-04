@@ -1,0 +1,19 @@
+*{
+    margin: 1px;
+    padding: 5px;
+    box-sizing:border-box;
+    border-radius: 10px;
+}
+body{
+    background-color: blueviolet;
+}
+.box{
+    background-color: aliceblue;
+}
+.titulo{
+    border-radius: 20px;
+    border: 15px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 2px;
+}
