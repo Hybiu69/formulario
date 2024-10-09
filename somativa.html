@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/somativa.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form action="/pagina-processa-dados-form" method="post">
+        <h1>Cadasto de DEVS</h1>
+        <h3>Faça já sua inscrição</h3>
+        <fieldset>
+            <label for="nome"><strong>Nome:</strong></label>
+            <input type="text" name="nome" class="nome" required>
+
+            <label for="snome"><strong>Sobrenome:</strong></label>
+            <input type="text" name="snome" class="snome" required>
+        </fieldset>
+
+        <fieldset>
+            <label for="telefone"><strong>Telefone:</strong></label>
+            <input id="tel" type="tel" placeholder="(XX)XXXXX-XXXX" required>
+
+            <label for="email"><strong>Email:</strong></label>
+            <input id="email" type="email" placeholder="email@gmail.com">
+        </fieldset>
+        <h3><strong>Em qual lado da aplicação você desenvolve?</strong></h3>
+
+        <fieldset>
+            <section class="wk">
+                <input id="fe" name="sexo" type="radio">
+                <label for="fe">Front-End</label>
+
+                <input id="be" name="sexo" type="radio">
+                <label for="be">Back-End</label>
+
+                <input id="fs" name="sexo" type="radio">
+                <label for="fs">Full-Stack</label>
+        </fieldset>
+        <fieldset>
+            </section>
+            <h3><strong>Nivel de Experiência</strong></h3>
+
+            <select>
+                <option>Selecione</option>
+                <option>Junior</option>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <h3><strong>Marque quais tecnologias você trabalha</strong></h3>
+            <section class="wk">
+                <input id="html" type="checkbox">
+                <label for="html">HTML</label>
+
+                <input id="css" type="checkbox">
+                <label for="css">CSS</label>
+
+                <input id="jv" type="checkbox">
+                <label for="jv">Java</label>
+
+                <input id="javascript" type="checkbox">
+                <label for="javascript">JavaScript</label>
+
+                <input id="sgb" type="checkbox">
+                <label for="sgb">SGBD</label>
+
+                <input id="php" type="checkbox">
+                <label for="php">PHP</label>
+
+                <input id="py" type="checkbox">
+                <label for="py">Python</label>
+            </section>
+        </fieldset>
+        <fieldset>
+            <label for="mensagem">
+                <h3><strong>Contenos um pouco da sua experiência:</strong></h3>
+            </label>
+            <h1></h1>
+            <textarea id="mensage" cols="70" rows="10"></textarea>
+
+            <h1></h1>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
